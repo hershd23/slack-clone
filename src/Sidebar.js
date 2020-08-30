@@ -33,7 +33,7 @@ function Sidebar() {
 	return <div className="sidebar">
 		<div className="sidebar__header">
 			<div className="sidebar__info">
-				<h2>Hersh Dhillon</h2>
+				<h2>Hersh Dhillon Slacc</h2>
 				<h3>
 					<FiberManualRecordIcon />
 					hershd23
@@ -52,7 +52,7 @@ function Sidebar() {
 		<hr />
 		<SidebarOption Icon={ExpandMoreIcon} title="Channels" />
 		<hr />
-		<SidebarOption Icon={AddIcon} title="Add Channel" />
+		<SidebarOption Icon={AddIcon} addChannelOption title="Add Channel" />
 
 		{/* Connect to DB and list all channels */}
 		{/* Sidebar options */}
